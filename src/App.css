@@ -1,38 +1,264 @@
-.App {
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 30px;
+}
+
+.container-button {
+  display: flex;
+  gap: 100px;
+}
+
+.container-button > button {
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 30px;
+  padding: 20px;
+  width: 100px;
+  height: 50px;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+
+  .h1-main {
+    font-size: 50px;
+    font-weight: medium;
+
+    strong {
+      font-weight: bolder;
+    }
+  }
+  .box-text-main {
+    width: 30%;
+  }
+
+  .button-main {
+    background-color: #f53838;
+    color: #fff;
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: ;
+  }
+}
+
+.container-section {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  padding: 50px 150px;
+  margin: 10px 100px;
+
+  margin: 50px;
+  border-radius: 30px;
+
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container-section > div {
+  display: flex;
+  gap: 30px;
+}
+
+.container-section > div > div > p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.container-section > div > div {
+  display: flex;
+  flex-direction: column;
+  p{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+.div-box {
+  display: flex;
+  gap: 30px;
+}
+
+.choose-your-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.box-plan-content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.h1-choose{
+  text-align: center;
+  h1{
+    font-weight: 600;
+    font-size: 50px;
+  }
+  p{
+    color: #4F5665;
+    font-size: 30px;
+  }
+}
+
+.box-plan {
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  flex-direction: column;
+  border: solid #dddddd 2px;
+  padding: 50px 80px;
+  border-radius: 10px;
+  /* width: 440px; */
+  height: 760px;
+  width: 13%;
+}
+
+.box-plan > nav {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  /* text-align: center; */
+  flex-direction: column;
+}
+nav > p {
+  display: flex;
+  gap: 10px;
+}
+
+.box-plan > div > button {
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 30px;
+  padding: 10px 50px;
+  /* width: 100px; */
+  /* height: 50px; */
+  color: red;
+}
+
+.section-world {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+}
+.world-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.world-text > h1 {
+  font-size: 35px;
+  width: 383px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.world-text > p {
+  font-size: 16px;
+  width: 555px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-images{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.container-chats{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  gap: 120px;
 }
 
-.App-link {
-  color: #61dafb;
+.section-footer {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  /* border: 1px solid; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+  /* border: 1px solid; */
+
 }
+
+.footer-logo{
+  display: flex;
+  gap: 5px;
+}
+
+.footer-text{
+  display: flex;
+  flex-direction: column;
+
+}
+.footer-information{
+  font-size: 16px;
+  width: 340px;
+  color: #4F5665;
+}
+
+.container-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+
+.container-second > div  {
+  display: flex;
+  flex-direction: column;
+  
+  h1{
+    width: 383px;
+  }
+  p{
+    width: 428px;
+  }
+
+
+
+}
+
+.container-second > div > div > p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
